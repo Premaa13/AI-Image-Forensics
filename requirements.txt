@@ -1,0 +1,7 @@
+# =============================================================================
+# Root Requirements - Convenience file for backend dependencies
+# Purpose: Install from project root: pip install -r requirements.txt
+# For full backend setup, use: pip install -r backend/requirements.txt
+# =============================================================================
+
+-r backend/requirements.txt

@@ -1,0 +1,66 @@
+# =============================================================================
+# AI Image Forensics - Git Ignore Configuration
+# Purpose: Excludes generated files, dependencies, secrets, and IDE artifacts
+# =============================================================================
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# ----- Node / Frontend -----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+.next/
+.cache/
+
+# ----- Environment & Secrets -----
+.env
+.env.local
+.env.*.local
+*.pem
+secrets/
+
+# ----- Model Artifacts (large files) -----
+*.pt
+*.pth
+*.onnx
+*.weights
+backend/models/checkpoints/
+training/output/
+
+# ----- Kaggle / Training -----
+training/input/
+training/output/
+*.ipynb_checkpoints/
+.DS_Store
+
+# ----- IDE -----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ----- Logs -----
+logs/
+*.log
+*.tmp
+
+# ----- OS -----
+Thumbs.db
+.DS_Store

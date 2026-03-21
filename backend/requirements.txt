@@ -1,0 +1,18 @@
+# =============================================================================
+# Backend Dependencies - FastAPI + PyTorch for AI Image Detection
+# Purpose: Production-ready Python packages for inference API
+# =============================================================================
+
+# Web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# ML / Inference
+torch>=2.0.0
+torchvision>=0.15.0
+Pillow>=10.0.0
+
+# Utils
+python-multipart>=0.0.6
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
