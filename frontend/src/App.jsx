@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback } from "react";
 import "./App.css";
 
-const API_BASE = "http://127.0.0.1:8000/api";
+const API_BASE = "https://premaa13-forensiq-backend.hf.space/api";
 
 function CircleGauge({ value, label, color }) {
   const r = 54;
