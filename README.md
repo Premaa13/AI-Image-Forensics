@@ -107,7 +107,7 @@ AI-Image-Forensics/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/AI-Image-Forensics.git
+git clone https://github.com/Premaa13/AI-Image-Forensics.git
 cd AI-Image-Forensics
 ```
 
